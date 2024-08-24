@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Default (light) mode */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#toggle{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    margin: 50px auto;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+ #circle{
+    height: 20px;
+    width:  20px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+h2{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.color-white {
+    color: white;
+}
+
+.bck-color-black {
+    background-color: black;
+}
